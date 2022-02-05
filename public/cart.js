@@ -64,7 +64,7 @@ function selectSandwich(sandwich) {
     nameInput.value = sandwich.name
 
     renderCart()
-    renderIngredientList()
+    ingredientList.IngredientList.render();
 }
 
 // We'll use this function to save the sandwich, either
